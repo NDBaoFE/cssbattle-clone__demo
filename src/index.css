@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.editor{
+  font-size: 1.6;
+    line-height: 16px;
+}
+.item__header{
+  background:#323f4a;
+display: flex;
+align-items: center;
+height:35px;
+justify-content: space-between;
+}
+.item__header>h3{
+  color:#cbd1e1;
+  font-weight: 600;
+  font-size:16px;
+  text-transform:uppercase;
+}
+.item__header>h4{
+  color:#a0b3c6;
+}
+
+
+
+
+
+.output-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background: transparent;
+  z-index: 20;
+}
+.img-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 300px;
+}
+.iframe-output {
+  border: none;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+.output-layer {
+  border: none;
+  width: 400px;
+  height: 300px;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  overflow: hidden;
+}
+.output h3{
+  margin-left:20px;
+}
+.output label{
+  margin-right:20px;
+  color:#a0b3c6;
+}
